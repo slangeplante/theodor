@@ -22,6 +22,15 @@ body {
     flex-wrap: wrap;
     margin: 20px;
   }
+    a.button {
+        padding: 1px 6px;
+        border: 1px outset buttonborder;
+        border-radius: 3px;
+        color: buttontext;
+        background-color: buttonface;
+        text-decoration: none;
+    }
+
   @media (max-width:800px) {
     .shelf {
         flex-direction: column;
