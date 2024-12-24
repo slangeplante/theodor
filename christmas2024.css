@@ -22,6 +22,10 @@ body {
     flex-wrap: wrap;
     margin: 20px;
   }
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
     a.button {
         padding: 1px 6px;
         border: 1px outset buttonborder;
